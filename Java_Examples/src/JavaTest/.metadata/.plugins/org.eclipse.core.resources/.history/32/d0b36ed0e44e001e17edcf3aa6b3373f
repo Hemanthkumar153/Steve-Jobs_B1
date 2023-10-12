@@ -1,0 +1,22 @@
+package Java_Exam;
+import java.util.Scanner;
+
+    public class StringProgram {
+	public static void main(String[] args) {
+		
+		int count;
+		Scanner sc = new Scanner(System.in) ;
+		System.out.println("Enter the String : ");
+		String str = sc.next();
+		
+		for(char i = 'a'; i<='z'; i++) {
+		if(i>=1) {	
+			System.out.println("String is Not a Distinct : "+str.charAt(i));
+		}
+		else {
+			System.out.println("String is  a Distinct : "+str.charAt(i));
+		}
+			
+		}
+	}
+}

@@ -1,0 +1,10 @@
+package polymorphism;
+
+public class MOR2 extends Polymorphism{
+	
+	public void methodOverLoading() {
+		System.out.println("I am Fine ");
+	}
+	
+	}
+

@@ -1,0 +1,18 @@
+package Java_Exam;
+import java.util.Scanner;//importing Scanner class 
+
+public class Common {//Creating a Class
+    public static void main(String[] args) {
+    	Scanner sc = new Scanner(System.in);
+    	System.out.println("Enter the input : ");
+    	int input = sc.nextInt();
+    	
+    	if(input%2==0) {
+    		System.out.println("Given input is Even :"+input);
+    	}
+    	else {
+    		System.out.println("Given input is Odd :"+input);
+    	}
+    }
+	
+}

@@ -1,0 +1,22 @@
+package Java_Exam;
+import java.util.Scanner;
+
+public class StringProgram {
+	public static void main(String[] args) {
+		
+		int count = 0;
+		
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the String : ");
+		String name = sc.next();
+		
+		for(char i = 'a'; i<='z'; i++ ) {
+			
+			
+		}
+		
+		
+	
+	}
+}

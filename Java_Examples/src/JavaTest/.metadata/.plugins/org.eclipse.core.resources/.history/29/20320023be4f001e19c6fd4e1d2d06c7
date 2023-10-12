@@ -1,0 +1,9 @@
+package polymorphism;
+
+public class Polymorphism {
+	
+	public void methodOverLoading() {
+		System.out.println("How r you :");
+	}
+
+}
